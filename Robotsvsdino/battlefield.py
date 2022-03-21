@@ -5,7 +5,7 @@ from Robotsvsdino.herd import create_herd
 from herd import Herd
 from fleet import Fleet
 
-class battlefield():
+class Battlefield():
      def choose_your_character(self): 
         print('Welcome to Robots vs Dinosours!')
         print('robot or dino?')
