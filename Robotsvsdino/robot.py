@@ -5,7 +5,7 @@ class Robot:
         self.nametwo == name
         self.health == '100'
         Weapon == Weapon
-       pass 
+    pass 
 
     def robo_name(self, name):
         name = ['terminator', 'R2D2', "R5D4", 'AXL']
