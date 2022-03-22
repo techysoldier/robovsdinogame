@@ -1,3 +1,5 @@
+#Model robot and pick name, weapon, healthmeter, random attack power
+
 from unicodedata import name
 from weapon import Weapon
 import random

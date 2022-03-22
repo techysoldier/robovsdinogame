@@ -1,4 +1,6 @@
-from Robotsvsdino.dino import choose_name
+#import dino file to create herd 
+
+from dino import choose_name
 from dino import Dino
 class Herd:
     def __init__(self) :

@@ -1,3 +1,5 @@
+#model dino pick name weapon health meter and random attack power 
+
 from unicodedata import name
 from weapon import Weapon
 import random
