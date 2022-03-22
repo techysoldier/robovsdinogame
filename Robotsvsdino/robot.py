@@ -6,7 +6,7 @@ class Robot:
     def __init__(self,name) -> None:
         self.robot = name
         self.health = '100'
-        self.weapon = Weapon ('Blastergun')
+        self.weapon = ('Blastergun')
        
 def choose_robot(self,name): 
     self.robot = name
