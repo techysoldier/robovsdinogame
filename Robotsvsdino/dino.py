@@ -3,11 +3,11 @@ from weapon import Weapon
 
 class Dino: 
     def __init__(self,name,):
-        self.name = name  
+        self.nameone = name  
         self.health = '100'
         self.attack_power = Weapon('')
     pass
-    def choose_name(self): 
+    def choose_name(self,name): 
         name = ['littlefoot', 'duckie', 'petree', 'spike']
         print(input('What is your dino name?'))
         if input != name: 
@@ -15,8 +15,9 @@ class Dino:
         if input == 'sarah': 
             print(' No three horns allowed')
         pass
-    def choose_weapon (attack_choiced): 
+    def choose_weapon (self,attack_choiced): 
         attack_choiced = ['stomp', 'roar','headbut','charge']
+        self.dinoattack = attack_choiced
         print(input('Choose your attack'))
         print('Initiating', attack_choiced)
     pass
