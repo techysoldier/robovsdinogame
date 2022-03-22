@@ -11,7 +11,7 @@ class Robot:
     def robo_name(self, name):
         name = ['terminator', 'R2D2', "R5D4", 'AXL']
         self.robo_name == name
-        print(random.choice(name))
+        print(name)
 
 
 

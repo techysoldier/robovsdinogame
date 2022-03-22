@@ -12,7 +12,7 @@ def choose_name(self,name):
     self.choose_name = ['littlefoot', 'duckie', 'petree', 'spike']
     print(input('What is your dino name?'))
     if input == self.choose_name:
-        print (random.choice(self.choose_name))
+        print (input)
     elif input == 'sarah': 
         print(' No three horns allowed')
     else:
@@ -25,7 +25,7 @@ def chooseweapon (self,attack_choiced):
     self.chooseweapon = attack_choiced
     print(input('Choose your attack'))
     print('Initiating')
-    print(random.choice (self.chooseweapon))
+    print(self.chooseweapon)
     return self.chooseweapon
 
 def health_meter(self):
