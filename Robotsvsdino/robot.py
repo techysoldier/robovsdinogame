@@ -2,45 +2,28 @@
 
 from unicodedata import name
 from weapon import Weapon
-import random
 class Robot:
     def __init__(self,name) -> None:
-        self.robot == name
-        self.health == '100'
-        Weapon == Weapon
-  
+        self.robot = name
+        self.health = '100'
+        self.weapon = Weapon ('Blastergun','')
+       
+def choose_robot(self,name): 
+    self.robot = name
 
-    def robo_name(self, name): 
-        name = ['terminator', 'R2D2', "R5D4", 'AXL']
-        self.robo_name == name
-        print(name)
-
-
-
-    def choose_weapon (self,attack_choicer): 
-        attack_choicer = ['blaster', 'rocket launcher','muay thai kick','overload']
-        self.choose_weapon = attack_choicer
-        print(input('Choose your attack'))
-        if input == 'blaster':
-            print('Initiating', input)
-        elif input == 'rocketlauncher':
-            print('Initiating', input)
-        elif input == 'muay thai kick':
-            print('Initiating', input)
-        else: 
-            print('Initiating, Overload!!')
+def choose_weapon(self, name): 
+    self.weapon = ('')
+    print('Please select weapon for', name)
+    
+   
+def health_meter(self): 
+    self.health = '100'
 
 
-    def health_meter(self):
-        self.health_meter == '100'
-        print("Your health is currently:") 
-        print(self.health_meter)
-    pass 
+def attack_methodr(self,dino): 
+    dino.health -= self.weapon 
+    print(f" {self.robot} attacked {self.dino}!")
+    print(f" {self.dino} total health is now {dino.health}")
 
-    def attackpower_amount (self): 
-        attackpower = ['10', '20','50','2']
-        self.attackpower_amount = attackpower
-        print(random.choice(self.attackpower_amount))
-        return self.attackpower_amount
-pass 
 
+   

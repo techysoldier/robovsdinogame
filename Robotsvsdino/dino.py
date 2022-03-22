@@ -1,55 +1,34 @@
-#model dino pick name weapon health meter and random attack power 
 
 from unicodedata import name
 from weapon import Weapon
-import random
-
-class Dino: 
-    def __init__(self,name,):
-        self.nameone = name  
+class Dino:
+    def __init__(self,name) -> None:
+        self.dino = name
         self.health = '100'
-        self.attack_power = Weapon('')
+        self.attack_power = ('Charge','')
+       
+def choose_dino(self,name): 
+    self.dino = name
 
-def choose_name(self,name): 
-    self.choose_name = ['littlefoot', 'duckie', 'petree', 'spike']
-    print(input('What is your dino name?'))
-    if input == self.choose_name:
-        print (input)
-    elif input == 'sarah': 
-        print(' No three horns allowed')
-    else:
-        print('Lame, try again')
-    return self.choose_name
+def choose_weapon(self, name): 
+    self.weapon = ('')
+    print('Please select weapon for', name)
+    
+   
+def health_meter(self): 
+    self.health = '100'
 
 
-def chooseweapon (self,attack_choiced): 
-    attack_choiced = ['stomp', 'roar','headbut','charge']
-    self.chooseweapon = attack_choiced
-    print(input('Choose your attack'))
-    print('Initiating') 
-    print(self.chooseweapon)
-    return self.chooseweapon
+def attack_methodd(self,robot): 
+    self.robot_health -= self.weapon 
+    print(f" {self.dino} attacked {self.robot}!")
+    print(f"{robot.dino} total health is now {robot.health}") 
 
-def health_meter(self):
-    self.health_meter == '100'
-    print("Your health is currently:") 
-    print(self.health_meter)
-    return self.health_meter
 
-def attackpower_amount (self): 
-    attackpower = ['10', '20','50','2']
-    self.attackpower_amount = attackpower
-    print(random.choice(self.attackpower_amount))
-    return self.attack_power
-pass 
 
-def dino_attack(self): 
-    if self.chooseweapon == 'stomp':
-        print(self.choose_name,'Stomp Stomp Stomp')
-    elif self.chooseweapon == 'roar':
-        print ('what a raoar')
-    elif self.chooseweapon == 'headbut': 
-        print(' Ouch what a hit')
-    else: 
-        print('CHARRRRGGGGGEEEE!!!!!')
-    return self.chooseweapon
+
+
+
+
+
+
