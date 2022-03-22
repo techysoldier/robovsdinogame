@@ -12,11 +12,11 @@ def choose_name(self,name):
     self.choose_name = ['littlefoot', 'duckie', 'petree', 'spike']
     print(input('What is your dino name?'))
     if input == self.choose_name:
-           print (random.choice(self.choose_name))
+        print (random.choice(self.choose_name))
     elif input == 'sarah': 
-            print(' No three horns allowed')
+        print(' No three horns allowed')
     else:
-           print('Lame, try again')
+        print('Lame, try again')
     return self.choose_name
 
 
