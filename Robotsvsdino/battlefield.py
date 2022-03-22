@@ -2,24 +2,22 @@
 from dino import attack_methodd, choose_dino
 from herd import Herd
 from fleet import Fleet
-import random
-
 from robot import attack_methodr, choose_robot
 
 class Battlefield:
     def __init__(self):
-        self.herd = Herd
-        self.fleet = Fleet
-        pass
+        self.herd = Herd()
+        self.fleet = Fleet()
+      
 
-def greeting(self): 
-  print('Welcome to Robots vs Dinosours!')
-
-  def run_battlefield_fight(self): 
-    self.greeting()
+def run_game(self): 
+    self.greeting_dis()
     self.run_battleground
-    pass 
+    
    
+def greeting_dis(self): 
+        print('Welcome to Robots vs Dinosours!')
+
 
 def run_batleground(self):
     print(" Battle Royal Ready")
@@ -51,22 +49,22 @@ def robo_turn(self):
     
 
 def go_dino(self,dino): 
-    dino_index = 0
+    dino.herd_index = 0
     for dino in self.herd.dino:
-        print(f" Press {dino.index} for {dino.name}")
-    dino.index += 1 
-    pass  
+        print(f" Press {dino.herd_index} for {dino.name}")
+    dino.herd_index += 1 
+     
 
 def go_robo(self, robot): 
-    robo_index = 0
+    robot_fleet_index = 0
     for robot in self.fleet.robot:
-        print(f" Press {robo_index} for {robot.name}")
-    robot.index += 1 
-    pass  
+        print(f" Press {robot_fleet_index} for {robot.name}")
+    robot.fleet_index += 1 
+     
 
 def the_winners(self): 
     print('And the winner is...')
-    if len(self.fleet.robots) > 0:
+    if len(self.fleet.robot) > 0:
             print('Robots Win!')
     else:
         print('Dinos Win!')

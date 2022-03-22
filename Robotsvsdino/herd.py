@@ -4,7 +4,7 @@ from dino import Dino
 class Herd:
     def __init__(self) :
         self.herd = []
-        pass
+      
 
 def create_herd(self): 
     littlefoot = Dino('Little Foot, 30')
@@ -15,4 +15,4 @@ def create_herd(self):
     self.dino.append(petree)
     spike = Dino ('Spike, 100')
     self.dino.append(spike)
-    pass
+   
