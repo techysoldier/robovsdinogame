@@ -1,3 +1,6 @@
+#import files from herd and fleet to start battle ground 
+from herd import Herd
+from fleet import Fleet
 
 class Battlefield():
     def __init__(self):
@@ -17,3 +20,12 @@ def create_character(self):
         print ('You have selected Dino')
     return create_character
 pass 
+
+def run_batleground(self):
+    print(" Battle Royal Ready")
+     
+def organize_herd(): 
+    pass 
+
+def organize_fleet(): 
+    pass 
