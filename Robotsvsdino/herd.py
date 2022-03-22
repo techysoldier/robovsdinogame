@@ -6,4 +6,4 @@ class Herd:
         pass
 
 def create_herd(self): 
-    self.dino = choose_name
+    self.dino = choose_name 

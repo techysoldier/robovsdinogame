@@ -8,7 +8,7 @@ class Robot:
         Weapon == Weapon
   
 
-    def robo_name(self, name):
+    def robo_name(self, name): 
         name = ['terminator', 'R2D2', "R5D4", 'AXL']
         self.robo_name == name
         print(name)

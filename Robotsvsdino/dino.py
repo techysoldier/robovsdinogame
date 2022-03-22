@@ -24,7 +24,7 @@ def chooseweapon (self,attack_choiced):
     attack_choiced = ['stomp', 'roar','headbut','charge']
     self.chooseweapon = attack_choiced
     print(input('Choose your attack'))
-    print('Initiating')
+    print('Initiating') 
     print(self.chooseweapon)
     return self.chooseweapon
 
