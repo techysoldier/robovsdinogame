@@ -19,7 +19,7 @@ def greeting_dis(self):
         print('Welcome to Robots vs Dinosours!')
 
 
-def run_batleground(self):
+def run_battleground(self):
     print(" Battle Royal Ready")
     self.go_dino()
     choose_dino = int("Which dino will battle first?")
